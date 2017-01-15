@@ -1,5 +1,5 @@
 import React from 'react';
-import CardSlotGroup from './CardSlotGroup.jsx';
+import CardGroup from './CardGroup.jsx';
 
 class Board extends React.Component {
 
@@ -12,7 +12,7 @@ class Board extends React.Component {
 
     return (
       <div>
-        <CardSlotGroup />
+        <CardGroup position="relative" width="500px" left="100px" top="100px"/>
       </div>
     );
   }
