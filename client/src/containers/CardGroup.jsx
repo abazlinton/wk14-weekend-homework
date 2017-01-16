@@ -18,14 +18,13 @@ class CardGroup extends React.Component {
       divStyle: divStyle,
       cards: [0,0,0,0],
       cardWidth: "0px",
-      layout: [],
+      layout: [4,2],
     };
 
     this.initCardSize();
   }
 
   componentDidMount(){
-  
 
   }
 
